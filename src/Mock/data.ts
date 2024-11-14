@@ -14,7 +14,15 @@ import Img13 from "./images/futurista3.jpg";
 import Img14 from "./images/futurista4.jpg";
 import Img15 from "./images/futurista5.jpg";
 
-export const DataAPI = [
+export interface dataApiProps{
+    id: number,
+    image: any,
+    category: string,
+  
+
+}
+
+export const DataAPI : dataApiProps [] =  [
   {
     id: 1,
     image: Img1,
@@ -68,26 +76,26 @@ export const DataAPI = [
   {
     id: 11,
     image: Img11,
-    category: "futuristic",
+    category: "ola",
   },
   {
     id: 12,
     image: Img12,
-    category: "futuristic",
+    category: "ola",
   },
   {
     id: 13,
     image: Img13,
-    category: "futuristic",
+    category: "ola",
   },
   {
     id: 14,
     image: Img14,
-    category: "futuristic",
+    category: "ola",
   },
   {
     id: 15,
     image: Img15,
-    category: "futuristic",
+    category: "ola",
   },
 ];

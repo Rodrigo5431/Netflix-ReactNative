@@ -3,11 +3,12 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
 
     footer:{
-        position: 'absolute',        // Posiciona o footer de forma fixa
-        bottom: 0,                   // Alinha o footer à parte inferior da tela
+        width: '100%',
+        height: 60,
+        position: 'absolute',
+        bottom: 0,
         left: 0,
         right: 0,
-        height: 60,
         backgroundColor: 'black',
         justifyContent: 'space-between',
         flexDirection: 'row',

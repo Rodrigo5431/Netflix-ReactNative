@@ -14,10 +14,11 @@ export const Home = () => {
         <Header />
         <Poster />
         <Horror />
-        <Action />
         <Futuristic />
+        <Action />
       </ScrollView>
-      <Footer />
+      
+      <Footer/>
     </>
   );
 };

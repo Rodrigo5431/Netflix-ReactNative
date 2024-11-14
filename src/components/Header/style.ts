@@ -20,10 +20,8 @@ export const styles = StyleSheet.create({
     marginLeft: 15,
   },
   iconRight: {
-    height: 50,
-    width: 50,
-    borderWidth: 3 ,
-    borderColor: "white",
+    height: 40,
+    width: 40,
   },
 
   buttonsNav:{

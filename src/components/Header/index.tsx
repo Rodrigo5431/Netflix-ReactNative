@@ -1,4 +1,4 @@
-import { Button, Image, Text, TouchableOpacity, View } from "react-native";
+import { Image, Text, TouchableOpacity, View } from "react-native";
 import { styles } from "./style";
 import netflixLogo from '../../../assets/netflix.png'
 import downloadLogo from '../../../assets/download.png'
