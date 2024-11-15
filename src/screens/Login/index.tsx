@@ -29,6 +29,8 @@ export const Login = () => {
           valueInput={password}
           placeHolder="Senha"
           handleFunctionInput={(value) => setPassword(value)}
+          typeIcon="password"
+          typeInput={true}
         />
       </View>
       <View style={styles.botao}>
